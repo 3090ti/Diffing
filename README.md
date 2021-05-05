@@ -40,7 +40,7 @@ Request body:
 Note: data is base64 encoded binary data
 
 
-### GET /v1/diff/ID
+### GET /v1/diff/[ID]
 
 Example: http://localhost/v1/diff/1
 
