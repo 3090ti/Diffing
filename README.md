@@ -4,7 +4,7 @@ Diffing is a test diffing library with web API and tests.
 
 ## Usage
 
-Call GET/PUT on <host>/v1/diff/<ID>/[action] to set data or retrieve diff info.
+Call GET/PUT on <host>/v1/diff/[ID]/[action] to set data or retrieve diff info.
 
 
 ### API Calls
@@ -40,7 +40,7 @@ Request body:
 Note: data is base64 encoded binary data
 
 
-### GET v1/diff/ID
+### GET /v1/diff/ID
 
 Example: http://localhost/v1/diff/1
 
